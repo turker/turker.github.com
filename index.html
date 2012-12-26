@@ -3,15 +3,19 @@ layout: default
 title: turker.log
 ---
 <div class="row-fluid">
-  <div class="navlinks">
-    <a href="/" class="active">Posts</a>  | 
-    <a href="/projectts">Projects</a>  | 
-    <a href="/about">About</a> |
-    <a href="/archive">Archive</a> 
+  <div class="navbar">
+  	<div class="navbar-inner">
+  		<ul class="nav">
+		    <li><a href="/" class="active">Posts</a></li>
+		    <li><a href="/projectts">Projects</a></li> 
+		    <li><a href="/about">About</a></li>
+		    <li><a href="/archive">Archive</a></li> 
+		</ul>
+	</div>
   </div>
 </div>
 
-<div class="row-fluid">
+<div class="row">
     <div class="postwrap">
     	{% for post in site.posts limit:3 %}
 	    	<div class="span4 postbox">
