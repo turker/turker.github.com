@@ -131,6 +131,10 @@ body {
   margin-bottom: 25px;
 }
 
+.postbox h2 a {
+  color: #333;
+}
+
 .profilepic {
   position: relative;
   display: block;

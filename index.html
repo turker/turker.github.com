@@ -2,6 +2,7 @@
 layout: default
 title: turker.log
 ---
+<div class="container">
 <div class="row-fluid">
   <div class="navbar">
   	<div class="navbar-inner">
@@ -19,7 +20,7 @@ title: turker.log
     <div class="postwrap">
     	{% for post in site.posts limit:3 %}
 	    	<div class="span4 postbox">
-	          <h2>{{ post.title }}</h2>
+	          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 	          <p>{{ post.content | strip_html | truncate: 320 }} <a href="{{post.url}}">more</a> </p>
 	        </div>  
      	{% endfor %}  
@@ -30,6 +31,7 @@ title: turker.log
 	<div class="archivelink">
 		<a class="btn btn-small" href="/archive">See all posts</a>
 	</div>
+</div>
 </div>
 
 
