@@ -100,7 +100,7 @@ body {
 }
 
 .archivelink {
-  margin: 25px 50px;
+  /*margin: 25px 50px;*/
 }
 
 .archivelist {
@@ -109,7 +109,8 @@ body {
 }
 
 .postwrap {
-  margin: 25px 50px;
+  margin-top: 25px;
+  font-family: "Droid Sans";
 }
 
 .archivewrap {
@@ -129,6 +130,14 @@ body {
   border-top: 1px solid #eee;
   background: #fff;
   margin-bottom: 25px;
+}
+
+.postbox h1, h2, h3 {
+  font-family: 'Droid Serif', 'Serif';
+}
+
+.postbox h2 {
+  font-size: 27.5px;
 }
 
 .postbox h2 a {
