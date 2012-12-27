@@ -3,6 +3,7 @@ html {
 
 body {
   background-color:whitesmoke;
+  font-family: "Droid Sans";
 }
 
 .container p.p-1 {
@@ -57,6 +58,7 @@ body {
 
 .navbar {
   height: 20px;
+  font-family: "Droid Sans";
 }
 .navbar .navbar-inner {
   -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.0980392), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.0980392);
@@ -100,7 +102,7 @@ body {
 }
 
 .archivelink {
-  /*margin: 25px 50px;*/
+  margin-bottom: 40px;
 }
 
 .archivelist {
@@ -110,7 +112,6 @@ body {
 
 .postwrap, .postBody {
   margin-top: 25px;
-  font-family: "Droid Sans";
 }
 
 .archivewrap {
@@ -121,7 +122,6 @@ body {
   border-top: 1px solid #eee;
   background: #fff;
   margin-bottom: 25px;
-  font-family: "Droid Sans";
 }
 
 .postbox {
@@ -170,6 +170,13 @@ body {
   padding-top: 20px;
   max-width: 640px;
   margin: 0 auto;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dededc;
+
+}
+
+.postBody
+{
 }
 
 .postComments
@@ -186,4 +193,28 @@ body {
   background-position: center;
   width: 90px;
   height: 90px; 
+}
+
+.footer {
+  font-size: 85%;
+  color: #666;
+  border-top: 3px solid #dededc;
+  border-bottom: 3px solid #dededc;
+  overflow: hidden;
+  max-width: 640px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+}
+
+.footer .about {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer img {
+  float: left;
+  margin-right: 10px;
+  border: 1px solid #ccc;
 }
