@@ -42,6 +42,11 @@ body {
   line-height: 19px;
 }
 
+.container-fluid .container .hero-unit p #social {
+  padding: 0px;
+  text-align: center;
+}
+
 .container-fluid .container .hero-unit a {
   color: #fff;
 }
