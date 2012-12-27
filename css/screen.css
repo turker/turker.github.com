@@ -42,6 +42,14 @@ body {
   line-height: 19px;
 }
 
+.container-fluid .container .hero-unit a {
+  color: #fff;
+}
+
+.container-fluid .container .hero-unit a:hover {
+  text-decoration: none;
+}
+
 .navbar {
   height: 20px;
 }
