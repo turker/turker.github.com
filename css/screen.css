@@ -143,6 +143,7 @@ body {
   border-top: 1px solid #eee;
   background: #fff;
   margin-bottom: 25px;
+  min-height: 300px !important;
 }
 
 .postbox h1, h2, h3 {
