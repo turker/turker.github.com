@@ -165,7 +165,14 @@ body {
   padding-bottom: 10px;
 }
 
-.postContent, .postComments
+.postContent
+{
+  padding-top: 20px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.postComments
 {
   padding-top: 20px;
   max-width: 640px;
