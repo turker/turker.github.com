@@ -91,21 +91,8 @@ body {
   line-height: 21.111112594604492px;
 }
 
-.navlinks {
-  text-align: center;
-  padding: 15px 0 0px;
-  margin-bottom: 10px;
-  color: #ccc;
-}
-
-.navlinks a {
-  font-size: 13px;
-  color: #777;
-  font-weight: normal;
-  margin: 0 40px;
-  padding: 5px 0;
-  /*color: #57ad68;*/
-  color: #0088cc;
+.nav>li>a.active {
+  color: #0088cc !important;
 }
 
 .navlinks a.active {
