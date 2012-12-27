@@ -1,10 +1,34 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Droid Sans|Droid+Serif|Flamenco|Federo|Yesteryear|Josefin Sans|Spinnaker|Sansita One|Handlee|Droid Sans|Oswald:400,300,700"
+    media="screen" rel="stylesheet" type="text/css" />
+    <link href="/css/bootstrap.css" media="screen" rel="stylesheet" type="text/css"
+    />
+     <link href="/css/screen.css" media="screen" rel="stylesheet" type="text/css"
+    />
+    <link href="/css/bootstrap-responsive.css" media="screen" rel="stylesheet" type="text/css"
+    />
+    <title>Site</title>
+  </head>
+  </body>
+	<div class="container-fluid">
+		<div class="container">
+			<article class="row">
+				<section class=" postContent">
+					<div class="postInfo"> 
+						<span>By <a href="/">Turker Keskinpala</a> on {{ page.date | date_to_string }}</span>
+					</div>
 
-<div id="post">
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }} - {{ page.location }}</p>
-
-{{ content }}
-</div>
+					<div class="postTitle"><h1>{{ page.title }}</h1></div>
+ 				<div class="postBody">
+ 						{{ content }}
+ 					</div>
+				</section>
+			</article>
+		</div>
+	</div>
+ </body>
