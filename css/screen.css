@@ -134,6 +134,11 @@ body {
 
 .postbox h1, h2, h3 {
   font-family: 'Droid Serif', 'Serif';
+  text-decoration: none;
+}
+
+.postbox a:hover {
+  text-decoration: none;
 }
 
 .postTitle {
@@ -158,7 +163,7 @@ body {
   padding-bottom: 10px;
 }
 
-.postContent
+.postContent, .postComments
 {
   padding: 50px;
   max-width: 640px;
