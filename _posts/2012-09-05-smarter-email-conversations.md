@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Smarter Email Conversations
+categories: Product &nbsp Brainstorm
 ---
 
 I just imagined an email application (i.e. an add-on to existing clients) with the following characteristics. 
@@ -14,7 +15,5 @@ This could be helpful in many ways like:
 * Tuning the tone, brevity, detail of the email based on the communication style of the person
 * Knowing who to possible add to the thread based who that person is most influenced by
 * etc. etc.
-
-
 
 I think most parts of something like this would be possible today. I just wanted to capture this here in this raw form as I thought about it since it wouldn't fit in 140 chars or less.

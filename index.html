@@ -20,8 +20,13 @@ title: turker.log
     <div class="postwrap">
     	{% for post in site.posts limit:3 %}
 	    	<div class="span4 postbox">
-	          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-	          <p>{{ post.content | strip_html | truncate: 320 }} <a href="{{post.url}}">more</a> </p>
+	    		<div class='postboxContent'>
+		          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	           	  <p>{{ post.content | strip_html | truncate: 380 }} <a href="{{post.url}}">more</a> </p>
+		        </div>
+		    	<div class='postboxMeta muted'>
+		    		<p><i>Posted in</i> {{ post.categories }} on <i>{{ post.date | date_to_string }}</i></p>
+		    	</div>
 	        </div>  
      	{% endfor %}  
 	</div>

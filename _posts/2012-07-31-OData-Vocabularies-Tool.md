@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OData Vocabularies Tool
+categories: I've &nbsp Built &nbsp This
 ---
 
 I spent a good chunk of this year working on [vocabularies in OData v3](http://www.odata.org/blog/2011/10/14/vocabularies-in-odata) and [WCF Data Services](http://blogs.msdn.com/b/astoriateam/archive/2011/10/13/vocabularies-in-wcf-data-services.aspx). It was a lot of fun challenge to help design and ship these features.

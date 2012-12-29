@@ -126,12 +126,25 @@ body {
 
 .postbox {
   border-radius: 3px;
-  padding: 15px;
   position: relative;
   border-top: 1px solid #eee;
   background: #fff;
   margin-bottom: 25px;
-  min-height: 300px !important;
+  height: 400px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.postbox .postboxContent {
+  height: 320px;
+  padding: 15px 25px 20px 25px;
+}
+
+.postbox .postboxMeta {
+  padding: 15px 25px 0px 25px;
+  border-top: 1px solid #eee;
+  box-sizing: border-box;
 }
 
 .postbox h1, h2, h3 {
@@ -158,6 +171,8 @@ body {
 .postbox h2 a {
   color: #333;
 }
+
+
 
 .postInfo {
   border-bottom: 1px solid #dededc;
