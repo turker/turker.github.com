@@ -145,6 +145,7 @@ body {
   padding: 15px 25px 0px 25px;
   border-top: 1px solid #eee;
   box-sizing: border-box;
+  font-size: 12px;
 }
 
 .postbox h1, h2, h3 {
