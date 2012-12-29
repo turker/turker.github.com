@@ -1,7 +1,7 @@
 safe: true
 lsi: false
 pygments: true
-permalink: /blog/:year/:month/:title
+permalink: /posts/:year/:month/:title
 
 server: true
 server_port: 4000

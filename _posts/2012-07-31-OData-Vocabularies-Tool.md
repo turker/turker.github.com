@@ -8,7 +8,7 @@ I spent a good chunk of this year working on [vocabularies in OData v3](http://w
  
 On the other hand, in my opinion, vocabularies and metadata annotations are somewhat abstract concepts which are not necessarily easy to grok at first sight. Moreover, in addition to the understanding the concept one needs to understand some CSDL/XML syntax. Since there is not currently any real tool support the whole thing can be intimidating. 
 
-I thought it would be cool to have some online service/tool which would make this exciting feature more approachable and easier to get started with. Since I love experimenting and throwing things out there to see what happens, I spent some of my nights and weekends in the last few weeks to come up with [http://odatavocabs.azurewebsites.net/](http://odatavocabs.azurewebsites.net/):
+I thought it would be cool to have some online service/tool which would make this exciting feature more approachable and easier to get started with. Since I love experimenting and throwing things out there to see what happens, I spent some of my nights and weekends in the last few weeks to come up with [http://odataannotations.azurewebsites.net/](http://odataannotations.azurewebsites.net/):
 
 [![image](https://img.skitch.com/20120731-x8pu5x5bpixs6kphukepdiaawi.medium.jpg)](https://img.skitch.com/20120731-x8pu5x5bpixs6kphukepdiaawi.jpg)
 
@@ -92,4 +92,4 @@ If you think there is a completely different need or have any feedback/suggestio
 
 I sincerely hope that this service will help you with your understanding of OData Annotations and Vocabularies or will motivate you to get started in some capacity. 
 
-So, go check out [http://odatavocabs.azurewebsites.net/](http://odatavocabs.azurewebsites.net/). You can share it on Twitter using the link on the front page. You can also follow [@ODataVocabs](https://twitter.com/ODataVocabs) and use the hashtag [#odatavocabs](https://twitter.com/i/#!/search/realtime/%23odatavocabs). I'm all eyes and ears. 
+So, go check out [http://odataannotations.azurewebsites.net/](http://odataannotations.azurewebsites.net/). You can share it on Twitter using the link on the front page. You can also follow [@ODataVocabs](https://twitter.com/ODataVocabs) and use the hashtag [#odatavocabs](https://twitter.com/i/#!/search/realtime/%23odatavocabs). I'm all eyes and ears. 
